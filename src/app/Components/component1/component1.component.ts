@@ -14,6 +14,7 @@ export class Component1Component implements OnInit {
   correo:Text
   contrasena:Text
   confirmarcontra:Text
+  c:Text
   telefono:number
   
 
@@ -25,7 +26,7 @@ export class Component1Component implements OnInit {
   almacenaste(){
     localStorage.setItem('Nombre', this.Nombre.toString())
     localStorage.setItem('correo', this.correo.toString())
-    localStorage.setItem('contraseña', this.contrasena.toString())
+    localStorage.setItem('contrasena', this.contrasena.toString())
     localStorage.setItem('confir', this.confirmarcontra.toString())
     localStorage.setItem('telefono', this.telefono.toString())
 

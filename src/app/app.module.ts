@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import {Component1Component} from './Components/component1/component1.component';
 
 import { Component2Component } from './Components/component2/component2.component';
-import { Component3Component } from './Components/component3/component3.component';
+
 import { FormsModule } from '@angular/forms';
 
 
@@ -15,7 +15,6 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
       Component1Component,
       Component2Component,
-      Component3Component
    ],
   imports: [
     BrowserModule,
